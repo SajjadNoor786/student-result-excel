@@ -1,33 +1,54 @@
-# 🎓 Student Result Excel Project
+![Excel Project](https://img.shields.io/badge/Made%20With-Excel-217346?logo=microsoft-excel&logoColor=white&style=for-the-badge)
 
-This project demonstrates how to calculate student **results and grades** using Excel formulas.
+# 🎓 Student Result Dashboard with Subject-wise Chart
 
----
+This project presents a visual representation of student performance across three subjects. It includes:
 
-## 📌 Task Objective
-
-Using marks in 3 subjects (`Sub1`, `Sub2`, `Sub3`) for each student, we:
-- Calculated **Pass/Fail** using logical functions (`IF + AND`, `IF + OR`)
-- Calculated **Percentage**
-- Assigned **Grades** based on percentage using nested `IF` and `IFS` functions
+- Subject-wise marks for each student
+- Pass/Fail result based on logical AND/OR conditions
+- Percentage and Grade assignment
+- A clear bar chart comparing Sub1, Sub2, and Sub3 marks
 
 ---
 
-## ✅ Features
+## 📊 Features
+- Excel-based structured table with logical results
+- Auto-calculated percentage and grade system
+- Stacked bar chart for quick visual analysis
+- Clean, printable layout
 
-- Logical Result:
-  - `Result AND`: Pass only if all subjects have ≥ 35
-  - `Result OR`: Pass if at least one subject has ≥ 35
+---
 
-- Grade Assignment:
-  | Percentage Range | Grade |
-  |------------------|--------|
-  | 80 and above     | A      |
-  | 70–79            | B      |
-  | 60–69            | C      |
-  | 50–59            | D      |
-  | Below 50         | E      |
+## 📁 File Included
+- `Student_Result_Chart.xlsx`: Contains the student data, results logic, and chart visualization.
 
-- Percentage:  
-  ```excel
-  =AVERAGE(Sub1, Sub2, Sub3)
+---
+
+## 🛠 Tools Used
+- Microsoft Excel
+- Basic logic functions (AND, OR)
+- Chart customization
+
+---
+
+## 🧠 How It Works
+- *Result AND:* All subjects must be passed
+- *Result OR:* Any one subject passed
+- *Grade Calculation:* Based on average percentage
+
+| Grade | Range (%) |
+|-------|------------|
+| A+    | 90–100     |
+| A     | 80–89      |
+| B     | 70–79      |
+| C     | 60–69      |
+| D     | 50–59      |
+| F     | <50 or Fail |
+
+---
+
+## ✨ Author
+**Sajjad Noor Ud Din**  
+📧 Email: [sajjadwatio786@gmail.com](mailto:sajjadwatio786@gmail.com)  
+🌐 GitHub: [sajjadnoor786](https://github.com/sajjadnoor786)
+
