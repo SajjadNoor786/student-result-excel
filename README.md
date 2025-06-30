@@ -52,3 +52,4 @@ This project presents a visual representation of student performance across thre
 📧 Email: [sajjadwatio786@gmail.com](mailto:sajjadwatio786@gmail.com)  
 🌐 GitHub: [sajjadnoor786](https://github.com/sajjadnoor786)
 
+#Excel #StudentDashboard #GradingSystem #ExcelCharts #IFformula #LogicalFunctions #DataVisualization #MicrosoftExcel
